@@ -486,7 +486,7 @@
 }
 
 .portfolio-text small {
-    color: #AB7442; /* Senin ana tema rengin */
+    color: #e41779; /* Senin ana tema rengin */
     font-weight: 600;
     letter-spacing: 2px;
 }
@@ -507,4 +507,16 @@
     .portfolio-item {
         height: 300px;
     }
+}
+
+.progress-bar {
+    transition: width 2s ease-in-out;
+}
+
+.text-primary {
+    color: #e41779 !important; /* Modely'nin ana rengi */
+}
+
+.bg-primary {
+    background-color: #e41779 !important;
 }
